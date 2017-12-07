@@ -19,7 +19,7 @@ for iter = 1:num_iters
 
     hypothesis= X*theta;
     theta= theta - alpha*(1/m*transpose(X)*(hypothesis-y));
-    disp(computeCost(X,y,theta));
+  
     % ============================================================
 
     % Save the cost J in every iteration
